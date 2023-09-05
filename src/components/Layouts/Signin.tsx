@@ -64,6 +64,16 @@ const Signin = () => {
                   )}
                 </Button>
               </Link>
+              <Link to="/signup">
+
+                <Button type="primary" danger htmlType="submit" className="mx-5">
+                  {isLoading ? (
+                    <AiOutlineLoading3Quarters className="animate-spin" />
+                  ) : (
+                    "Đăng ký "
+                  )}
+                </Button>
+              </Link>
             </Form.Item>
           </Form>
         </div>
